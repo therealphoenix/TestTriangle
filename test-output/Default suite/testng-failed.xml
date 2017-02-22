@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.klindziuk.TriangleTestLab.GetSquareTest">
+        <methods>
+          <include name="getSquare_Test_Null"/>
+          <include name="getSquare_Test_NegativeNumber"/>
+          <include name="getSquare_Test_NegativeInfinity"/>
+          <include name="getSquare_Test_PositiveInfinity"/>
+          <include name="getSquare_Test_NaN"/>
+        </methods>
+      </class> <!-- com.klindziuk.TriangleTestLab.GetSquareTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
